@@ -1,0 +1,6 @@
+{
+    "extends": [
+        "@troyblank/eslint-config-troyblank/configs/es6.js",
+        "@troyblank/eslint-config-troyblank/configs/jest.js"
+    ]
+}

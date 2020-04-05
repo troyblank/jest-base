@@ -1,0 +1,25 @@
+{
+    "name": "@troyblank/jest-base",
+    "version": "0.0.1",
+    "scripts": {
+        "test": "npm run lint && npm run unit",
+        "lint": "eslint 'src/**/*.js'",
+        "unit": "jest --watch --coverage"
+    },
+    "dependencies": {
+        "enzyme": "3.10.0",
+        "enzyme-adapter-react-16": "1.15.1",
+        "jest": "24.9.0",
+        "jest-enzyme": "7.1.2"
+    },
+    "devDependencies": {
+        "@babel/core": "7.7.4",
+        "@babel/preset-env": "7.7.4",
+        "@babel/preset-react": "7.7.4",
+        "@troyblank/eslint-config-troyblank": "1.4.0",
+        "react": "16.12.0",
+        "react-dom": "16.12.0"
+    },
+    "author": "Troy Blank",
+    "license": "BSD-3-Clause"
+}
