@@ -3,8 +3,10 @@
     "version": "0.0.1",
     "scripts": {
         "test": "npm run lint && npm run unit",
+        "test-once": "npm run lint && npm run unit-once",
         "lint": "eslint 'src/**/*.js'",
-        "unit": "jest --watch --coverage"
+        "unit": "jest --watch --coverage",
+        "unit-once": "jest --coverage"
     },
     "dependencies": {
         "enzyme": "3.10.0",
@@ -17,6 +19,7 @@
         "@babel/preset-env": "7.7.4",
         "@babel/preset-react": "7.7.4",
         "@troyblank/eslint-config-troyblank": "1.4.0",
+        "coveralls": "3.0.11",
         "react": "16.12.0",
         "react-dom": "16.12.0"
     },

@@ -3,6 +3,7 @@
 # NODE #
 #########
 node_modules
+package.lock.json
 
 # OS generated files #
 ######################
