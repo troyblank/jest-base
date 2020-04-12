@@ -13,3 +13,7 @@ You will want to install all required node packages:
 ### Run Example Tests
 
     npm test
+
+## Use with React
+
+In order to get this base working with `React` you will need to include the `testSetup/react.js` file in this repo and add it to your `jest.config.js` under `setupFilesAfterEnv`.
